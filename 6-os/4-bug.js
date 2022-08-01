@@ -25,3 +25,7 @@ console.log(obj);
   }
 
 */
+
+// this convertArrayToObject has a bug - curr and acc is swapped producing:
+// ~/dev/plural/ngs/6-os   master ±  node 4-bug.js
+// [ 5, 'Five', <2 empty items>, 'Four'
